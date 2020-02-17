@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- reset.css creates spacing/formatting error
-    <link rel="stylesheet" href="reset.css">  -->
-    <link rel="stylesheet" href="styles.css">
-=======
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -20,85 +14,94 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style/style.css" />
->>>>>>> Bootstrap
     <link rel="shortcut icon" type="image/png" href="./files/favicon.png" />
     <title>Peter Brennan | Developer</title>
   </head>
   <body>
-    <!-- <header>    </header> -->
-    <div class="container">
+    <header class="border-bottom border-dark mb-3">
+      <!-- Menu hides when smaller than 768px -->
       <div class="row">
-            <div class="col-lg-12">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Peter Brennan</a>
-          <!-- <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          > -->
-            <!-- <span class="navbar-toggler-icon"></span> -->
-          <!-- </button> -->
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="nav">
-              <!-- <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
+        <div class="col-md-3 d-none d-md-block bg-info navbar ">
+          <div class="text-center text-light" id="name">Peter Brennan</div>
+        </div>
+        <div class="col-md-9 d-none d-md-block bg-white">
+          <div class="nav justify-content-end">
+            <ul class="nav " id="navbar1">
+              <li class="nav-item">
+                <a class="nav-link text-muted active" href="./index.html"
+                  >About</a
                 >
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-muted" href="./porfolio.html"
+                  >Portfolio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link text-muted" href="./contact.html">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-  
             </ul>
           </div>
         </div>
-        </nav>
       </div>
 
-      <section id="my-bio">
-        <img
-          id="bio-image"
-          height="auto"
-          width="300px"
-          src="./files/profile.png"
-          alt="Profile Image"
-        />
-        <p>Hi, I'm currently learning the art of programming :)</p>
-      </section>
+      <!-- Menu shows when smaller than 768px -->
+      <div class="">
+        <div class="row d-md-none">
+          <div class="col-lg-12 text-center navbar-brand bg-info text-light ">
+            Peter Brennan
+          </div>
+        </div>
+        <div class="nav d-md-none">
+          <div class="col-lg-12 bg-white">
+            <ul class="nav justify-content-center" id="navbar1">
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="./index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="./porfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row bg-white border border-secondary">
+        <div class="col-sm-12 p-4">
+          <section id="my-bio">
+            <img
+              id="bio-image"
+              height="auto"
+              width="300px"
+              src="./files/profile.png"
+              alt="Profile Image"
+            />
+            <p>Hi, I'm currently learning the art of programming :)</p>
+          </section>
 
-<<<<<<< HEAD
-        <section id="contact-info">
+          <section id="contact-info">
             <h2>Contact Info</h2>
             <ul>
-                <li><strong>Email:</strong> <a href="mailto:peter@agcorp.com.au?subject=Contact from webpage&body=Hi Peter,"> peter@agcorp.com.au</a></li>
-                <li><a href="https://github.com/Pete331" target="_blank"> <strong>GitHub</strong></a></li>
-                <li><strong>Portfolio:</strong> <a href="#"> Coming Soon</a></li>
+              <li>
+                <strong>Email:</strong> <a href="#"> peter@agcorp.com.au</a>
+              </li>
+              <li>
+                <a href="https://github.com/Pete331">
+                  <strong>GitHub</strong></a
+                >
+              </li>
+              <li><strong>Portfolio:</strong> <a href="#"> Coming Soon</a></li>
             </ul>
-        </section>
-=======
-      <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul>
-          <li><strong>Email:</strong> <a href="#"> peter@agcorp.com.au</a></li>
-          <li>
-            <a href="https://github.com/Pete331"> <strong>GitHub</strong></a>
-          </li>
-          <li><strong>Portfolio:</strong> <a href="#"> Coming Soon</a></li>
-        </ul>
-      </section>
->>>>>>> Bootstrap
+          </section>
+        </div>
+      </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
