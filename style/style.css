@@ -7,6 +7,12 @@ body {
     font-size: 20px;
 }
 
+.border-3 {
+    border-top-width:10px !important;
+    border-top-style: solid;
+    border-color: #5bc0de;
+}
+
 /* #menu-name {
     padding: 0 50px;
 } */
