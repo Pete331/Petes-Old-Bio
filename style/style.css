@@ -1,4 +1,29 @@
 body {
+    font-family: 'PT Serif', serif;
+    background-color: lightgray;
+}
+
+#name {
+    font-size: 20px;
+}
+
+.border-3 {
+    border-top-width:10px !important;
+    border-top-style: solid;
+    border-color: #5bc0de;
+}
+
+/* #menu-name {
+    padding: 0 50px;
+} */
+
+/* @media screen and (max-width: 768px) {
+    #navbar1 {
+        justify-content: center;
+    }
+} */
+
+/* body {
     background-color: #efeee7;
     font-family: Georgia,"Times New Roman",Times,serif;
     color: #333333;
@@ -53,4 +78,4 @@ h2 {
     margin-right: 50px;
     -webkit-box-shadow: 5px 6px 9px 6px rgba(0,0,0,0.87); 
     box-shadow: 5px 6px 9px 6px rgba(0,0,0,0.87);
-}
+} */
