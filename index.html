@@ -13,112 +13,303 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="shortcut icon" type="image/png" href="./files/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <title>Peter Brennan | Developer</title>
   </head>
   <body>
-    <header class="border-bottom border-dark mb-3 sticky-top">
-      <!-- Menu hides when smaller than 768px -->
-      <div class="row">
-        <div class="col-md-3 d-none d-md-block bg-info navbar ">
-          <div class="text-center text-light" id="name">Peter Brennan</div>
-        </div>
-        <div class="col-md-9 d-none d-md-block bg-white">
-          <div class="nav justify-content-end">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link text-muted active" href="./index.html"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link text-muted" href="./porfolio.html"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-muted" href="./contact.html">Contact</a>
-              </li>
-            </ul>
+    <div id="container">
+      <header class="border-bottom border-dark mb-3 sticky-top">
+        <!-- Menu hides when smaller than 768px -->
+        <div class="row">
+          <div class="col-md-3 d-none d-md-block bg-info navbar ">
+            <div class="text-center text-light" id="name">Peter Brennan</div>
+          </div>
+          <div class="col-md-9 d-none d-md-block bg-white">
+            <div class="nav justify-content-end">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="btn nav-link text-muted active" href="./index.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item ">
+                  <a id="portfolio" class="btn nav-link text-muted" 
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a id="contact" class="btn nav-link text-muted" 
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Menu shows when smaller than 768px -->
-      <div class="">
-        <div class="row d-md-none">
-          <div class="col-lg-12 text-center navbar-brand bg-info text-light ">
-            Peter Brennan
+        <!-- Menu shows when smaller than 768px -->
+        <div class="">
+          <div class="row d-md-none">
+            <div class="col-lg-12 text-center navbar-brand bg-info text-light ">
+              Peter Brennan
+            </div>
+          </div>
+          <div class="nav d-md-none">
+            <div class="col-lg-12 bg-white">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="./index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="./porfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="nav d-md-none">
-          <div class="col-lg-12 bg-white">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link text-muted" href="./index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-muted" href="./porfolio.html"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-muted" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <div class="container">
-      <div class="row bg-white border border-secondary">
-        <div class="col-sm-12 p-4">
-          <div class="border-bottom border-secondary mb-3">
-            <h1 class="text-info">About Me</h1>
-          </div>
-          <section class="d-md-inline-flex">
-            <img
-              class="rounded img-fluid mx-auto mx-md-0 d-block"
-              id="bio-image"
-              height="auto"
-              width="300px"
-              src="./files/profile.png"
-              alt="Profile Image"
-            />
-            <p class="p-3">
-              I grew up on our family farm in Wongan Hills, developing a love
-              and passion for agriculture and technology. After completing a
-              Bachelor of Science in Agriculture and a Bachelor of Commerce at
-              UWA, I spent several years working on our family farm. I have
-              spent a couple of years with NAB agribusiness gaining experience
-              in the banking sector being exposed to different ag industries. I
-              am currently working at Grain Brokers Australia and am looking to
-              further my interest in programming. To be continued….. and fleshed
-              out
-            </p>
-          </section>
-
-          <section id="contact-info">
-            <a href="https://github.com/Pete331" target="_blank"
-              ><img
-                src="./files/github.svg"
-                alt="github"
-                width="50px"
+      <div class="home-page container">
+        <div class="row bg-white border border-secondary">
+          <div class="col-sm-12 p-4">
+            <div class="border-bottom border-secondary mb-3">
+              <h1 class="text-info">Full-Stack Web Developer</h1>
+            </div>
+            <section class="d-md-inline-flex">
+              <img
+                class="rounded img-fluid mx-auto mx-md-0 d-block"
+                id="bio-image"
                 height="auto"
-            /></a>
-          </section>
+                width="300px"
+                src="./files/profile.png"
+                alt="Profile Image"
+              />
+              <p class="p-3">
+                I grew up on our family farm in Wongan Hills, developing a love
+                and passion for agriculture and technology. After completing a
+                Bachelor of Science in Agriculture and a Bachelor of Commerce at
+                UWA, I spent several years working on our family farm. I have
+                spent a couple of years with NAB agribusiness gaining experience
+                in the banking sector being exposed to different ag industries.
+                I am currently working at Grain Brokers Australia and am looking
+                to further my interest in programming. To be continued….. and
+                fleshed out
+              </p>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
-    <footer class="footer">
-      <div
-        class="footer-copyright sticky-bottom text-light text-center bg-secondary py-3 border-3 mt-3"
-      >
-        © 2020 Copyright - Peter Brennan
+      <div class="portfolio container d-none">
+        <div class="row bg-white border border-secondary">
+          <div class="col-sm-12 p-4">
+            <div class="border-bottom border-secondary mb-3">
+              <h1 class="text-info">Portfolio</h1>
+            </div>
+  
+            <div class="container-fluid mt-4">
+              <div class="row justify-content-center">
+    
+                <div class="col-auto mb-3">
+                  <div class="card" style="width: 22rem;">
+                    <img
+                      src="./files/Heriseon.PNG"
+                      class="card-img-top"
+                      alt="Heriseon"
+                      style="height: 17rem;"/>
+                      <a href="https://pete331.github.io/Week-1---Heroseon/" target=”_blank”>
+                    <div class="row card-img-overlay">
+                      <h5 class="col-12 align-self-center card-title bg-info text-white text-center p-3">Heriseon</h5>
+                    </div>
+                    <div class="card card-body">
+                      <a href="https://github.com/Pete331/Week-1---Heroseon" target=”_blank” class="card-link">Github</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-auto mb-3">
+                  <div class="card" style="width: 22rem;">
+                    <img
+                      src="./files/facedetector.PNG"
+                      class="card-img-top"
+                      alt="face detector"
+                      style="height: 17rem;"/>
+                      <a href="https://smart-brain331.herokuapp.com/" target=”_blank”>
+                    <div class="row card-img-overlay">
+                      <h5 class="col-12 align-self-center card-title bg-info text-white text-center p-3">Face Detector</h5>
+                    </div>
+                    <div class="card card-body">
+                      <a href="https://github.com/Pete331/smart-brain-api" target=”_blank” class="card-link">Github</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-auto mb-3">
+                  <div class="card" style="width: 22rem;">
+                    <img
+                      src="./files/Robofriends.PNG"
+                      class="card-img-top"
+                      alt="robofriends"
+                      style="height: 17rem;"/>
+                      <a href="https://pete331.github.io/robofriends/" target=”_blank”>
+                    <div class="row card-img-overlay">
+                      <h5 class="col-12 align-self-center card-title bg-info text-white text-center p-3">Robofriends</h5>
+                    </div>
+                    <div class="card card-body">
+                      <a href="https://github.com/Pete331/robofriend" target=”_blank” class="card-link">Github</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-auto mb-3">
+                  <div class="card" style="width: 22rem;">
+                    <img
+                      src=""
+                      class="card-img-top"
+                      alt="Project 4"
+                      style="height: 17rem;"/>
+                      <a href="#" target=”_blank”>
+                    <div class="row card-img-overlay">
+                      <h5 class="col-12 align-self-center card-title bg-info text-white text-center p-3">Project 4</h5>
+                    </div>
+                    <div class="card card-body">
+                      <a href="#" target=”_blank” class="card-link">Github</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-auto mb-3">
+                  <div class="card" style="width: 22rem;">
+                    <img
+                      src=""
+                      class="card-img-top"
+                      alt="Project 5"
+                      style="height: 17rem;"/>
+                      <a href="#" target=”_blank”>
+                    <div class="row card-img-overlay">
+                      <h5 class="col-12 align-self-center card-title bg-info text-white text-center p-3">Project 5</h5>
+                    </div>
+                    <div class="card card-body">
+                      <a href="#" target=”_blank” class="card-link">Github</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-auto mb-3">
+                  <div class="card" style="width: 22rem;">
+                    <img
+                      src=""
+                      class="card-img-top"
+                      alt="Project 6"
+                      style="height: 17rem;"/>
+                      <a href="#" target=”_blank”>
+                    <div class="row card-img-overlay">
+                      <h5 class="col-12 align-self-center card-title bg-info text-white text-center p-3">Project 6</h5>
+                    </div>
+                    <div class="card card-body">
+                      <a href="#" target=”_blank” class="card-link">Github</a>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+      <div class="contact container d-none">
+        <div class="row bg-white border border-secondary">
+          <div class="col-sm-12 p-4">
+            <div class="border-bottom border-secondary mb-3">
+              <h1 class="text-info">Contact</h1>
+            </div>
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+  <form action="https://github.us3.list-manage.com/subscribe/post?u=64a019defcb78cebd2fa23e6a&amp;id=e5f8fe46ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+    
+    <div class="mc-field-group mt-3">
+    <label for="mce-NAME">Name </label>
+    <input type="text" value="" name="NAME" class="form-control" id="mce-NAME">
+  </div>
+  <div class="mc-field-group mt-3">
+    <label for="mce-EMAIL">Email  <span class="asterisk">*</span>
+  </label>
+    <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL">
+  </div>
+  <div class="mc-field-group size1of2 mt-3">
+    <label for="mce-PHONE">Phone </label>
+    <input type="text" name="PHONE" class="form-control" value="" id="mce-PHONE">
+  </div>
+  <div class="mc-field-group mt-3">
+    <label for="mce-MESSAGE">Message </label>
+    <input type="text" value="" name="MESSAGE" class="form-control" id="mce-MESSAGE" >
+  </div>
+    <div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_64a019defcb78cebd2fa23e6a_e5f8fe46ea" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-info mt-3"></div>
+      </div>
+  </form>
+  </div>         
+ </div>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+  <!--End mc_embed_signup-->
+
+      </div>
+      <div class="clearfooter"></div>
+    </div>
+    <footer
+      class="footer sticky-bottom text-light text-center bg-secondary py-3 border-3 mt-3"
+    >
+      <div class="text-center col-12">
+        <a
+          target="_blank"
+          href="https://github.com/Pete331"
+          class="btn btn-neutral btn-icon btn-github btn-round btn-lg"
+        >
+          <i class="fab fa-github fa-2x"></i> </a
+        ><a
+          target="_blank"
+          href="https://www.linkedin.com/in/peter-brennan-a61563192/"
+          class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round"
+        >
+          <i class="fab fa-linkedin fa-2x"></i> </a
+        ><a
+          target="_blank"
+          href="https://www.twitter.com/Pete_331"
+          class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
+        >
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Pete331"
+          class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
+        >
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+      </div>
+      © 2020 - Designed & Coded by Peter Brennan
     </footer>
+    
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -133,6 +324,6 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
-    ></script>
+    ></script><script src="script.js"></script>
   </body>
 </html>

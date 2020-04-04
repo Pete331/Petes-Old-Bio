@@ -1,16 +1,48 @@
+:root {
+  --footer-height: 150px;
+}
+
 body {
-    font-family: 'PT Serif', serif;
-    background-color: lightgray;
+font-family: 'Varela Round', sans-serif;
+  background-color: lightgray;
+  min-width: 350px;
+  width: auto !important;
+  width: 350px;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 #name {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+#container {
+  min-height: 100%;
+  margin-bottom: calc(var(--footer-height) * -1);
+  position: relative;
 }
 
 .border-3 {
-    border-top-width:10px !important;
-    border-top-style: solid;
-    border-color: #5bc0de;
+  border-top-width: 10px !important;
+  border-top-style: solid;
+  border-color: #5bc0de;
+}
+
+.footer {
+  height: var(--footer-height);
+  position: relative;
+}
+
+.clearfooter {
+  height: var(--footer-height);
+  clear: both;
+}
+
+.socials {
+  height: 100px;
 }
 
 /* #menu-name {
