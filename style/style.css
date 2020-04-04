@@ -65,18 +65,19 @@ body {
     line-height: 150%;
 }
 
-header {
-    font-weight: bold;
-    background-color: #333333;
+body {
+  margin-bottom: 82px; /* Margin bottom by footer height */
+ }
+ 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 82px; /* Set the fixed height of the footer here */
 }
 
-h1 {
-    color: #eee;
-    font-size: 28px;
+.row {
     margin: 0;
-    margin-bottom: 20px;
-    padding: 20px 0;
-    text-align: center;
 }
 
 h2 {
