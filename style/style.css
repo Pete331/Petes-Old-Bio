@@ -3,7 +3,7 @@
 }
 
 body {
-font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   background-color: lightgray;
   min-width: 350px;
   width: auto !important;
@@ -25,15 +25,13 @@ body {
   position: relative;
 }
 
-.border-3 {
-  border-top-width: 10px !important;
-  border-top-style: solid;
-  border-color: #5bc0de;
-}
-
 .footer {
   height: var(--footer-height);
   position: relative;
+}
+
+.socials {
+  height: 100px;
 }
 
 .clearfooter {
@@ -41,24 +39,34 @@ body {
   clear: both;
 }
 
-.socials {
-  height: 100px;
+.border-3 {
+  border-top-width: 10px !important;
+  border-top-style: solid;
+  border-color: #5bc0de;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #bio-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 5px 6px 9px 6px rgba(0,0,0,0.87); 
-    box-shadow: 5px 6px 9px 6px rgba(0,0,0,0.87);
-} 
+  float: left;
+  /* width: 200px; */
+  max-width: 200px;
+  width: auto !important;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 6px 9px 6px rgba(0, 0, 0, 0.87);
+  box-shadow: 5px 6px 9px 6px rgba(0, 0, 0, 0.87);
+}
+
+.card {
+  max-width: 400px;
+  width: auto !important;
+  height: auto;
+}
