@@ -3,6 +3,7 @@
 }
 
 body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/crisp_paper_ruffles.png);
   font-family: "Varela Round", sans-serif;
   background-color: lightgray;
   min-width: 350px;
