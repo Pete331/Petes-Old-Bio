@@ -30,10 +30,10 @@
       <header class="border-bottom border-dark mb-3 sticky-top">
         <!-- Menu hides when smaller than 768px -->
         <div class="row">
-          <div class="col-md-3 d-none d-md-block bg-info navbar ">
+          <div class="col-3 d-none d-md-block bg-info navbar ">
             <div class="text-center text-light" id="name">Peter Brennan</div>
           </div>
-          <div class="col-md-9 d-none d-md-block bg-white">
+          <div class="col-9 d-none d-md-block bg-white">
             <div class="nav justify-content-end">
               <ul class="nav">
                 <li class="nav-item">
@@ -42,12 +42,12 @@
                   >
                 </li>
                 <li class="nav-item ">
-                  <a id="portfolio" class="btn nav-link text-muted"
+                  <a class="portfolio-btn btn nav-link text-muted"
                     >Portfolio</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a id="contact" class="btn nav-link text-muted">Contact</a>
+                  <a class="contact-btn btn nav-link text-muted">Contact</a>
                 </li>
               </ul>
             </div>
@@ -57,25 +57,25 @@
         <!-- Menu shows when smaller than 768px -->
         <div class="">
           <div class="row d-md-none">
-            <div class="col-lg-12 text-center navbar-brand bg-info text-light ">
+            <div class="col-12 text-center navbar-brand bg-info text-light ">
               Peter Brennan
             </div>
           </div>
           <div class="nav d-md-none">
-            <div class="col-lg-12 bg-white">
+            <div class="col-12 bg-white">
               <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link text-muted" href="./index.html">About</a>
+                  <a class="btn nav-link text-muted active" href="./index.html"
+                    >About</a
+                  >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link text-muted" 
+                <li class="nav-item ">
+                  <a class="portfolio-btn btn nav-link text-muted"
                     >Portfolio</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-muted" 
-                    >Contact</a
-                  >
+                  <a class="contact-btn btn nav-link text-muted">Contact</a>
                 </li>
               </ul>
             </div>
@@ -85,16 +85,15 @@
 
       <div class="home-page container">
         <div class="row bg-white border border-secondary">
-          <div class="col-sm-12 p-4">
+          <div class="col-12 p-4">
             <div class="border-bottom border-secondary mb-3">
               <h1 class="text-info">Full-Stack Web Developer</h1>
             </div>
-            <section class="d-md-inline-flex">
+            <section class="d-lg-inline-flex ">
               <img
-                class="rounded img-fluid mx-auto mx-md-0 d-block"
+                class="rounded"
                 id="bio-image"
-                height="auto"
-                width="300px"
+         
                 src="./files/profile.png"
                 alt="Profile Image"
               />
