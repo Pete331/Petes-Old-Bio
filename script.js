@@ -13,4 +13,22 @@ $(document).ready(function() {
     $(".portfolio").removeClass("d-block");
     $(".contact").addClass("d-block");
   });
+
+  $(".img-thumb").on("mouseover", function() {
+    $(this).removeClass("d-block");
+    $(this).addClass("d-none");
+    $(this)
+      .next()
+      .addClass("d-block")
+      .removeClass("d-none");
+  });
+
+  $(".img-caption").on("mouseleave", function() {
+    $(this).removeClass("d-block");
+    $(this).addClass("d-none");
+    $(this)
+      .prev()
+      .addClass("d-block")
+      .removeClass("d-none");
+  });
 });
