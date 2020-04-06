@@ -7,13 +7,18 @@ body {
   font-family: "Varela Round", sans-serif;
   background-color: lightgray;
   min-width: 350px;
-  width: auto !important;
+  width: 100% !important;
   width: 350px;
 }
 
 html,
 body {
   height: 100%;
+}
+
+/* added so that horizontal scrollbar dissappeared */
+.row {
+  margin: 0px;
 }
 
 #name {
