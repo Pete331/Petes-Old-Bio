@@ -1,5 +1,5 @@
 :root {
-  --footer-height: 150px;
+  --footer-height: 160px;
 }
 
 body {
@@ -20,8 +20,9 @@ body {
   font-size: 20px;
 }
 
+/* 98.4% instead of 100% so that no scroll is required when page not full */
 #container {
-  min-height: 100%;
+  min-height: 98.4%;
   margin-bottom: calc(var(--footer-height) * -1);
   position: relative;
 }
@@ -46,10 +47,6 @@ body {
   border-color: #5bc0de;
 }
 
-.row {
-  margin: 0;
-}
-
 #bio-image {
   float: left;
   /* width: 200px; */
@@ -72,10 +69,10 @@ body {
 }
 
 .portfolio-div {
-  /* margin: 20px; */
+  min-height: 225px;
 }
 
 .img-caption {
   height: 100%;
-  background-color: lightgrey;
+    background-color: lightgrey;
 }
