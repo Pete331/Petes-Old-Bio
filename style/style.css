@@ -47,8 +47,8 @@ body {
 }
 
 .border-3 {
-  border-top-width: 10px !important;
-  border-top-style: solid;
+  border-bottom-width: 10px !important;
+  border-bottom-style: solid;
   border-color: #5bc0de;
 }
 
