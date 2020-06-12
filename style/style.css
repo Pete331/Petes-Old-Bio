@@ -55,7 +55,7 @@ body {
 #bio-image {
   float: left;
   /* width: 200px; */
-  max-width: 200px;
+  max-width: 300px;
   width: 40% !important;
   height: auto;
   margin: 20px;
